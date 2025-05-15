@@ -1,6 +1,6 @@
 {
   "name": "@lonli-lokli/dynamic-forms-chakra-ui",
-  "version": "6.0.0-gamma1",
+  "version": "6.0.0-gamma3",
   "description": "Chakra UI theme, fields, and widgets for react-jsonschema-form",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -87,10 +87,10 @@
     "@emotion/jest": "^11.13.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma1",
-    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma1",
-    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma1",
-    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma3",
+    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma3",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma3",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma3",
     "chakra-react-select": "6.1.0",
     "eslint": "^8.56.0",
     "lucide-react": "^0.488.0"
