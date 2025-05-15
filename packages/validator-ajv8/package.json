@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/validator-ajv8",
-  "version": "6.0.0-beta.7",
+  "name": "@lonli-lokli/dynamic-forms-validator-ajv8",
+  "version": "6.0.0-beta7",
   "main": "dist/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",

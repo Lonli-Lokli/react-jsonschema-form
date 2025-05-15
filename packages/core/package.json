@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/core",
-  "version": "6.0.0-beta.7",
+  "name": "@lonli-lokli/dynamic-forms-core",
+  "version": "6.0.0-beta7",
   "description": "A simple React component capable of building HTML forms out of a JSON schema.",
   "scripts": {
     "compileReplacer": "tsc -p tsconfig.replacer.json && move-file lodashReplacer.js lodashReplacer.cjs",
@@ -77,7 +77,7 @@
     "prop-types": "^15.8.1"
   },
   "devDependencies": {
-    "@rjsf/snapshot-tests": "^6.0.0-beta.7",
+    "@rjsf/snapshot-tests": "^6.0.0-beta7",
     "@rjsf/utils": "^6.0.0-beta.7",
     "@rjsf/validator-ajv8": "^6.0.0-beta.7",
     "@testing-library/jest-dom": "^6.6.3",
