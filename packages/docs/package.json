@@ -1,6 +1,6 @@
 {
   "name": "@lonli-lokli/dynamic-forms-docs",
-  "version": "6.0.0-gamma3",
+  "version": "6.0.0-gamma4",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

@@ -1,4 +1,4 @@
-import { SELECT_CUSTOMIZE } from '@lonli-lokli/dynamic-forms--lokli/dynamic-forms-snapshot-tests';
+import { SELECT_CUSTOMIZE } from '@lonli-lokli/dynamic-forms-snapshot-tests';
 
 export const FORM_RENDER_OPTIONS = {
   [SELECT_CUSTOMIZE]: {
