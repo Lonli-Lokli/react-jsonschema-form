@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function SelectWidget<
   T = any,

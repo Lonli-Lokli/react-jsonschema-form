@@ -1,5 +1,12 @@
 import { useCallback } from 'react';
-import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType, getTemplate, descriptionId } from '@rjsf/utils';
+import {
+  WidgetProps,
+  StrictRJSFSchema,
+  RJSFSchema,
+  FormContextType,
+  getTemplate,
+  descriptionId,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `CheckboxWidget` component renders a single checkbox input with DaisyUI styling.
  *

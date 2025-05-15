@@ -3,10 +3,10 @@ import { CssBaseline } from '@mui/material';
 import { CacheProvider } from '@emotion/react';
 import createCache, { EmotionCache } from '@emotion/cache';
 import Frame, { FrameComponentProps, FrameContextConsumer } from 'react-frame-component';
-import { __createChakraFrameProvider } from '@rjsf/chakra-ui';
+import { __createChakraFrameProvider } from '@lonli-lokli/dynamic-forms-chakra-ui';
 import { StyleProvider as AntdStyleProvider } from '@ant-design/cssinjs';
-import { __createFluentUIRCFrameProvider } from '@rjsf/fluentui-rc';
-import { __createDaisyUIFrameProvider } from '@rjsf/daisyui';
+import { __createFluentUIRCFrameProvider } from '@lonli-lokli/dynamic-forms-fluentui-rc';
+import { __createDaisyUIFrameProvider } from '@lonli-lokli/dynamic-forms-daisyui';
 
 /*
 Adapted from https://github.com/mui-org/material-ui/blob/master/docs/src/modules/components/DemoSandboxed.js

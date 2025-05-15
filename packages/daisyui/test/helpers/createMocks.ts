@@ -1,6 +1,6 @@
-import { createSchemaUtils, englishStringTranslator, WidgetProps, RJSFSchema } from '@rjsf/utils';
-import { getDefaultRegistry } from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import { createSchemaUtils, englishStringTranslator, WidgetProps, RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { getDefaultRegistry } from '@lonli-lokli/dynamic-forms-core';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 import Templates from '../../src/templates/Templates';
 import generateWidgets from '../../src/widgets/Widgets';

@@ -6,7 +6,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { ChangeEvent, FocusEvent } from 'react';
 
 import { Input } from '../components/ui/input';

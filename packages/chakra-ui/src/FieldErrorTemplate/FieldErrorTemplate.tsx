@@ -1,4 +1,10 @@
-import { errorId, FieldErrorProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import {
+  errorId,
+  FieldErrorProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { ListItem, ListRoot, Text } from '@chakra-ui/react';
 
 /** The `FieldErrorTemplate` component renders the errors local to the particular field

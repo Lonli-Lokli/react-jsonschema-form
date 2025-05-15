@@ -1,7 +1,7 @@
 import { ComponentType } from 'react';
-import { withTheme, FormProps } from '@rjsf/core';
+import { withTheme, FormProps } from '@lonli-lokli/dynamic-forms-core';
 import { generateTheme } from '../Theme';
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 export function generateForm<
   T = any,

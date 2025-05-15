@@ -8,7 +8,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function BaseInputTemplate<
   T = any,

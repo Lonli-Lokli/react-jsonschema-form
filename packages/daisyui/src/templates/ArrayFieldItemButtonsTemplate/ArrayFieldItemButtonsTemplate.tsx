@@ -5,7 +5,7 @@ import {
   StrictRJSFSchema,
   ArrayFieldItemButtonsTemplateType,
   buttonId,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `ArrayFieldItemButtonsTemplate` component renders the action buttons for an array field item
  * using DaisyUI's join component when multiple buttons are present.

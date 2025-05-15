@@ -9,7 +9,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   rangeSpec,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `RangeWidget` component uses the `BaseInputTemplate` changing the type to `range` and wrapping the result
  * in a div, with the value along side it.

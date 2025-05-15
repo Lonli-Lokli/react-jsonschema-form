@@ -19,7 +19,7 @@ import {
   TranslatableString,
   UI_OPTIONS_KEY,
   UIOptionsType,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import isObject from 'lodash/isObject';
 import omit from 'lodash/omit';
 

@@ -39,8 +39,8 @@
 
 ## API Libraries
 
-- [@rjsf/utils](https://github.com/rjsf-team/react-jsonschema-form/tree/main/packages/utils)
-- [@rjsf/validator-ajv8](https://github.com/rjsf-team/react-jsonschema-form/tree/main/packages/validator-ajv8)
+- [@lonli-lokli/dynamic-forms-utils](https://github.com/rjsf-team/react-jsonschema-form/tree/main/packages/utils)
+- [@lonli-lokli/dynamic-forms-validator-ajv8](https://github.com/rjsf-team/react-jsonschema-form/tree/main/packages/validator-ajv8)
 
 ## Documentation
 

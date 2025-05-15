@@ -1,4 +1,4 @@
-import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 import CheckboxWidget from '../CheckboxWidget/CheckboxWidget';
 import CheckboxesWidget from '../CheckboxesWidget/CheckboxesWidget';
 import RadioWidget from '../RadioWidget/RadioWidget';

@@ -1,6 +1,6 @@
 import { Text, makeStyles, tokens } from '@fluentui/react-components';
-import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
-import { RichDescription } from '@rjsf/core';
+import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { RichDescription } from '@lonli-lokli/dynamic-forms-core';
 
 const useStyles = makeStyles({
   label: {

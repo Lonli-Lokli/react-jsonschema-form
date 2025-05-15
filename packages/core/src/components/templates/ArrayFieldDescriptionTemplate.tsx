@@ -6,7 +6,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `ArrayFieldDescriptionTemplate` component renders a `DescriptionFieldTemplate` with an `id` derived from
  * the `idSchema`.

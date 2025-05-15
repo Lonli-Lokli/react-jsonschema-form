@@ -5,7 +5,7 @@
     <img src="bootstrap-logo.png" alt="Logo" width="140" height="120">
   </a>
 
-  <h3 align="center">@rjsf/react-bootstrap</h3>
+  <h3 align="center">@lonli-lokli/dynamic-forms-react-bootstrap</h3>
 
   <p align="center">
   Bootstrap 5 theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -54,16 +54,16 @@ Exports `react-bootstrap` theme, fields and widgets for `react-jsonschema-form`.
 ### Prerequisites
 
 - `react-bootstrap >= 2.0.0`
-- `@rjsf/core >= 2.2.0`
+- `@lonli-lokli/dynamic-forms-core >= 2.2.0`
 
 ```bash
-yarn add react-bootstrap @rjsf/core
+yarn add react-bootstrap @lonli-lokli/dynamic-forms-core
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/react-bootstrap
+yarn add @lonli-lokli/dynamic-forms-react-bootstrap
 ```
 
 ## Usage
@@ -75,7 +75,7 @@ import Form from 'packages/react-bootstrap';
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
+import { withTheme } from '@lonli-lokli/dynamic-forms-core';
 import { Theme as BootstrapTheme } from 'packages/react-bootstrap';
 
 const Form = withTheme(BootstrapTheme);
@@ -104,8 +104,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/react-bootstrap/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/react-bootstrap
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/react-bootstrap.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/react-bootstrap
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-react-bootstrap/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-react-bootstrap
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-react-bootstrap.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-react-bootstrap
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/react-bootstrap/screenshot.png

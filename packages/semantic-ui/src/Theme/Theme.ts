@@ -1,5 +1,5 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
-import { ThemeProps } from '@rjsf/core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { ThemeProps } from '@lonli-lokli/dynamic-forms-core';
 import { Form as SuiForm } from 'semantic-ui-react';
 
 import { generateTemplates } from '../Templates';

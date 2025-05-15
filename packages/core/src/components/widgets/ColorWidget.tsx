@@ -1,4 +1,10 @@
-import { getTemplate, FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import {
+  getTemplate,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `ColorWidget` component uses the `BaseInputTemplate` changing the type to `color` and disables it when it is
  * either disabled or readonly.

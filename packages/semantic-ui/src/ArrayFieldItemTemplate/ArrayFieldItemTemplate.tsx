@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   getUiOptions,
   getTemplate,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Button, Grid, Segment } from 'semantic-ui-react';
 
 import { MaybeWrap } from '../util';

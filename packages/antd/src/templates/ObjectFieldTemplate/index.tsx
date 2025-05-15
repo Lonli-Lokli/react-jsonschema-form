@@ -16,7 +16,7 @@ import {
   getUiOptions,
   titleId,
   buttonId,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Col, Row, ConfigProvider } from 'antd';
 import { useContext } from 'react';
 

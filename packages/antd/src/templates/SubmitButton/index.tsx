@@ -1,5 +1,11 @@
 import { Button, ButtonProps } from 'antd';
-import { getSubmitButtonOptions, FormContextType, RJSFSchema, StrictRJSFSchema, SubmitButtonProps } from '@rjsf/utils';
+import {
+  getSubmitButtonOptions,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  SubmitButtonProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 type ButtonType = NonNullable<ButtonProps['type']>;
 

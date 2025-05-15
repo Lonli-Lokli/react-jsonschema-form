@@ -1,4 +1,4 @@
-import { LOOKUP_MAP_NAME, RJSFSchema } from '@rjsf/utils';
+import { LOOKUP_MAP_NAME, RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import { Sample } from './Sample';
 

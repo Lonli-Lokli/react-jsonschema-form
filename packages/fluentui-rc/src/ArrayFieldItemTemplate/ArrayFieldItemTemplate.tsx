@@ -5,7 +5,7 @@ import {
   getUiOptions,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Flex } from '@fluentui/react-migration-v0-v9';
 import { makeStyles } from '@fluentui/react-components';
 

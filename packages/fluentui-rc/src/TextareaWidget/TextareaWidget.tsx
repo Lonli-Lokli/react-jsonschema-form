@@ -6,7 +6,7 @@ import {
   WidgetProps,
   ariaDescribedByIds,
   labelValue,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { ChangeEvent, FocusEvent } from 'react';
 
 const useStyles = makeStyles({

@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs';
-import { RJSFSchema } from '@rjsf/utils';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import compileSchemaValidators, { compileSchemaValidatorsCode } from '../src/compileSchemaValidators';
 

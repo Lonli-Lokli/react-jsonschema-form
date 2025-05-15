@@ -1,4 +1,4 @@
-import { RJSFSchema } from '@rjsf/utils';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import AJV8PrecompiledValidator from '../src/precompiledValidator';
 import { Localizer, ValidatorFunctions } from '../src';

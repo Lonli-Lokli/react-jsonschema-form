@@ -1,14 +1,14 @@
 /**
  * In order to keep things in sync, it may be necessary to run this after making changes in the schemaParser world in
- * `@rjsf/utils` OR if an AJV update is installed. To run this, simply do the following, starting in the root directory
- * of the `@rjsf/validator-ajv8` directory:
+ * `@lonli-lokli/dynamic-forms-utils` OR if an AJV update is installed. To run this, simply do the following, starting in the root directory
+ * of the `@lonli-lokli/dynamic-forms-validator-ajv8` directory:
  *
  * - cd test/harness
  * - node compileTestSchema.js
  *
  * Then add the two updated `superSchema.cjs` and `superSchemaOptions.cjs` files to your PR
  */
-import { RJSFSchema } from '@rjsf/utils';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 import additionalMetaSchema from 'ajv/lib/refs/json-schema-draft-06.json';
 
 import compileSchemaValidators from '../../src/compileSchemaValidators';

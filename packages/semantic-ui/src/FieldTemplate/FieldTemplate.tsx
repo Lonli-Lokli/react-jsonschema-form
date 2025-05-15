@@ -5,7 +5,7 @@ import {
   StrictRJSFSchema,
   getTemplate,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Form } from 'semantic-ui-react';
 import { getSemanticProps, MaybeWrap } from '../util';
 

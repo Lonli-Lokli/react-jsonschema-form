@@ -9,7 +9,7 @@ import {
   TranslatableString,
   UIOptionsType,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import Markdown from 'markdown-to-jsx';
 
 function addNameToDataURL(dataURL: string, name: string) {

@@ -1,4 +1,4 @@
-import { objectTests } from '@rjsf/snapshot-tests';
+import { objectTests } from '@lonli-lokli/dynamic-forms-snapshot-tests';
 
 import Form from '../src';
 

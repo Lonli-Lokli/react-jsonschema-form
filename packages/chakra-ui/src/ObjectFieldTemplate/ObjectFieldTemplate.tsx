@@ -10,7 +10,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   titleId,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function ObjectFieldTemplate<
   T = any,

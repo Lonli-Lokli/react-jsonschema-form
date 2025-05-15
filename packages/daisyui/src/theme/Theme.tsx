@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useCallback, useContext, useState } from 'react';
-import { getDefaultRegistry, ThemeProps } from '@rjsf/core';
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { getDefaultRegistry, ThemeProps } from '@lonli-lokli/dynamic-forms-core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import { generateTemplates } from '../templates/Templates';
 import { generateWidgets } from '../widgets/Widgets';

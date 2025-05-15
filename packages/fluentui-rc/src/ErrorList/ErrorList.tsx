@@ -1,5 +1,11 @@
 import { Card, Text, makeStyles, shorthands, tokens } from '@fluentui/react-components';
-import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import {
+  ErrorListProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TranslatableString,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 const useStyles = makeStyles({
   errorCard: {

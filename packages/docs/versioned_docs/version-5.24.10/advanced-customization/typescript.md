@@ -1,14 +1,14 @@
 # Typescript Support
 
 RJSF fully supports Typescript.
-The [types and functions](../api-reference/utility-functions.md) exported by `@rjsf/utils` are fully typed (as needed) using one or more of the following 3 optional generics:
+The [types and functions](../api-reference/utility-functions.md) exported by `@lonli-lokli/dynamic-forms-utils` are fully typed (as needed) using one or more of the following 3 optional generics:
 
 - `T = any`: This represents the type of the `formData` and defaults to `any`.
 - `S extends StrictRJSFSchema = RJSFSchema`: This represents the type of the `schema` and extends the `StrictRJSFSchema` type and defaults to the `RJSFSchema` type.
 - `F extends FormContextType = any`: This represents the type of the `formContext`, extends the `FormContextType` type and defaults to `any`.
 
-Every other library in the `@rjsf/*` ecosystem use these same generics in their functions and React component definitions.
-For instance, in the `@rjsf/core` library the definitions of the `Form` component and the `withTheme()` and `getDefaultRegistry()` functions are as follows:
+Every other library in the `@lonli-lokli/dynamic-forms-*` ecosystem use these same generics in their functions and React component definitions.
+For instance, in the `@lonli-lokli/dynamic-forms-core` library the definitions of the `Form` component and the `withTheme()` and `getDefaultRegistry()` functions are as follows:
 
 ```ts
 export default class Form<
@@ -45,9 +45,9 @@ The generic `T` is used to represent the type of the `formData` property passed 
 If you are working with a simple, unchanging JSON Schema and you have defined a type for the `formData` you are working with, you can override this generic as follows:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import { customizeValidator } from '@rjsf/validator-ajv8';
-import { Form } from '@rjsf/core';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { Form } from '@lonli-lokli/dynamic-forms-core';
 
 interface FormData {
   foo?: string;
@@ -76,9 +76,9 @@ If you are using something like the [Ajv utility types for schemas](https://ajv.
 
 ```tsx
 import { JSONSchemaType } from 'ajv';
-import { RJSFSchema } from '@rjsf/utils';
-import { customizeValidator } from '@rjsf/validator-ajv8';
-import { Form } from '@rjsf/core';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { Form } from '@lonli-lokli/dynamic-forms-core';
 
 interface FormData {
   foo?: string;
@@ -114,9 +114,9 @@ The generic `F` is used to represent the type of the `formContext` property pass
 If you have a type for this data, you can override this generic as follows:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import { customizeValidator } from '@rjsf/validator-ajv8';
-import { Form } from '@rjsf/core';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { Form } from '@lonli-lokli/dynamic-forms-core';
 
 interface FormContext {
   myCustomWidgetData: object;
@@ -146,13 +146,13 @@ render(
 
 ## Overriding generics in core
 
-As shown in previous examples, overriding the default `Form` from `@rjsf/core` is pretty straight forward.
+As shown in previous examples, overriding the default `Form` from `@lonli-lokli/dynamic-forms-core` is pretty straight forward.
 Using the `withTheme()` function is just as easy:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import { customizeValidator } from '@rjsf/validator-ajv8';
-import { withTheme, ThemeProps } from '@rjsf/core';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { withTheme, ThemeProps } from '@lonli-lokli/dynamic-forms-core';
 
 interface FormData {
   foo?: string;
@@ -186,20 +186,20 @@ const Demo = () => <ThemedForm schema={schema} uiSchema={uiSchema} validator={va
 
 ## Overriding generics in other themes
 
-Since all the other themes in RJSF are extensions of `@rjsf/core`, overriding parts of these themes with custom generics is a little different.
+Since all the other themes in RJSF are extensions of `@lonli-lokli/dynamic-forms-core`, overriding parts of these themes with custom generics is a little different.
 The exported `Theme` and `Form` from any of the themes have been created using the generic defaults, and as a result, do not take generics themselves.
 In order to override generics, special `generateForm()` and `generateTheme()` functions are exported for your use.
 
 ### Overriding a Theme
 
-If you are doing something like the following to create a new theme based on `@rjsf/mui` to extend one or more `templates`:
+If you are doing something like the following to create a new theme based on `@lonli-lokli/dynamic-forms-mui` to extend one or more `templates`:
 
 ```tsx
 import React from 'react';
-import { WidgetProps } from '@rjsf/utils';
-import { ThemeProps, withTheme } from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
-import { Theme } from '@rjsf/mui';
+import { WidgetProps } from '@lonli-lokli/dynamic-forms-utils';
+import { ThemeProps, withTheme } from '@lonli-lokli/dynamic-forms-core';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { Theme } from '@lonli-lokli/dynamic-forms-mui';
 
 const OldBaseInputTemplate = Theme.templates.BaseInputTemplate;
 
@@ -225,10 +225,10 @@ Then you would use the new `generateTheme()` and `generateForm()` functions as f
 
 ```tsx
 import React from 'react';
-import { WidgetProps } from '@rjsf/utils';
-import { ThemeProps, withTheme } from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
-import { generateTheme } from '@rjsf/mui';
+import { WidgetProps } from '@lonli-lokli/dynamic-forms-utils';
+import { ThemeProps, withTheme } from '@lonli-lokli/dynamic-forms-core';
+import { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { generateTheme } from '@lonli-lokli/dynamic-forms-mui';
 
 interface FormData {
   foo?: string;

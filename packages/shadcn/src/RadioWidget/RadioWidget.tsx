@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { FocusEvent } from 'react';
 
 import { Label } from '../components/ui/label';

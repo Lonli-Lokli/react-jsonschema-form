@@ -13,7 +13,7 @@ import ObjectFieldTemplate from '../ObjectFieldTemplate';
 import SubmitButton from '../SubmitButton';
 import TitleField from '../TitleField';
 import WrapIfAdditionalTemplate from '../WrapIfAdditionalTemplate';
-import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@lonli-lokli/dynamic-forms-utils';
 
 export function generateTemplates<
   T = any,

@@ -7,7 +7,7 @@ import {
   FormContextType,
   ObjectFieldTemplateProps,
   ObjectFieldTemplatePropertyType,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Sample } from './Sample';
 
 function ObjectFieldTemplate<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>(

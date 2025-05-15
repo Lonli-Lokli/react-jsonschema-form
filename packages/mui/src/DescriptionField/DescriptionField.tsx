@@ -1,6 +1,6 @@
 import Typography from '@mui/material/Typography';
-import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
-import { RichDescription } from '@rjsf/core';
+import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { RichDescription } from '@lonli-lokli/dynamic-forms-core';
 
 /** The `DescriptionField` is the template to use to render the description of a field
  *

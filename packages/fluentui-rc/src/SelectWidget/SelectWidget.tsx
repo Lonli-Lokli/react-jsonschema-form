@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Dropdown, Field, Option } from '@fluentui/react-components';
 import { OptionOnSelectData } from '@fluentui/react-combobox';
 

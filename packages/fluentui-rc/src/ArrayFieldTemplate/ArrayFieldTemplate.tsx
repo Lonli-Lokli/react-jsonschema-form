@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   buttonId,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 const useStyles = makeStyles({
   arrayItemList: {

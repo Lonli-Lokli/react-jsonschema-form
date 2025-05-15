@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/semantic-ui",
-  "version": "6.0.0-beta7",
+  "name": "@lonli-lokli/dynamic-forms-semantic-ui",
+  "version": "6.0.0-gamma1",
   "main": "dist/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -46,7 +46,7 @@
     "build:ts": "tsc -b tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "build:cjs": "esbuild ./src/index.ts --bundle --outfile=dist/index.js --sourcemap --packages=external --format=cjs",
     "build:esm": "esbuild ./src/index.ts --bundle --outfile=dist/semantic-ui.esm.js --sourcemap --packages=external --format=esm",
-    "build:umd": "rollup dist/semantic-ui.esm.js --format=umd --file=dist/semantic-ui.umd.js --name=@rjsf/semantic-ui",
+    "build:umd": "rollup dist/semantic-ui.esm.js --format=umd --file=dist/semantic-ui.umd.js --name=@lonli-lokli/dynamic-forms-semantic-ui",
     "build": "npm run build:ts && npm run build:cjs && npm run build:esm && npm run build:umd",
     "cs-check": "prettier -l \"{src,test}/**/*.ts?(x)\"",
     "cs-format": "prettier \"{src,test}/**/*.ts?(x)\" --write",
@@ -61,16 +61,16 @@
     ]
   },
   "peerDependencies": {
-    "@rjsf/core": "^6.0.0-beta",
-    "@rjsf/utils": "^6.0.0-beta",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-beta",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-beta",
     "react": ">=18",
     "semantic-ui-react": "^2.1.3"
   },
   "devDependencies": {
-    "@rjsf/core": "^6.0.0-beta.7",
-    "@rjsf/snapshot-tests": "^6.0.0-beta7",
-    "@rjsf/utils": "^6.0.0-beta.7",
-    "@rjsf/validator-ajv8": "^6.0.0-beta.7",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma1",
     "atob": "^2.1.2",
     "eslint": "^8.56.0",
     "nanoid": "^5.1.5",

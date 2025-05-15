@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Checkbox } from '@fluentui/react-components';
 
 /** The `CheckBoxWidget` is a widget for rendering boolean properties.

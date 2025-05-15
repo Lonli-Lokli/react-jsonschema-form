@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WrapIfAdditionalTemplateProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { FocusEvent } from 'react';
 
 import { Input } from '../components/ui/input';

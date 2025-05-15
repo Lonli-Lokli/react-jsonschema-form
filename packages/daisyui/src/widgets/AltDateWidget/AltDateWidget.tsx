@@ -11,7 +11,7 @@ import {
   dateRangeOptions,
   DateObject as RJSFDateObject,
   Registry,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** Interface for date object with optional string fields for each date/time component */
 interface DateObject {

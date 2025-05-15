@@ -8,7 +8,7 @@ import {
   getUiOptions,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function ArrayFieldItemTemplate<
   T = any,

@@ -1,4 +1,4 @@
-import { EnumOptionsType, RJSFSchema, UiSchema } from '@rjsf/utils';
+import { EnumOptionsType, RJSFSchema, UiSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 export const SIMPLE_ONEOF: RJSFSchema = {
   title: 'Simple',

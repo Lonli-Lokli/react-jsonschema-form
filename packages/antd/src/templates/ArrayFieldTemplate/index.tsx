@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   buttonId,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import classNames from 'classnames';
 import { Col, Row, ConfigProvider } from 'antd';
 import { useContext } from 'react';

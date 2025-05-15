@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/7ebc86621d8df8c21f0c39bcca6d476f6f7a2051/packages/utils/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/utils</h3>
+  <h3 align="center">@lonli-lokli/dynamic-forms-utils</h3>
 
   <p align="center">
   Utility functions for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -60,7 +60,7 @@ Exports `utils` functions for `react-jsonschema-form`.
 ### Installation
 
 ```bash
-yarn add @rjsf/utils
+yarn add @lonli-lokli/dynamic-forms-utils
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -68,7 +68,7 @@ yarn add @rjsf/utils
 ## Usage
 
 ```jsx
-import * as Utils from '@rjsf/utils';
+import * as Utils from '@lonli-lokli/dynamic-forms-utils';
 ```
 
 ## Documentation
@@ -104,7 +104,7 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/utils/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/utils
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/utils.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/utils
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-utils/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-utils
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-utils.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-utils

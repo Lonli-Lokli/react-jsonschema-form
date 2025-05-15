@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/chakra-ui",
-  "version": "6.0.0-beta7",
+  "name": "@lonli-lokli/dynamic-forms-chakra-ui",
+  "version": "6.0.0-gamma1",
   "description": "Chakra UI theme, fields, and widgets for react-jsonschema-form",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -42,7 +42,7 @@
     "build:ts": "tsc -b tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "build:cjs": "esbuild ./src/index.ts --bundle --outfile=dist/index.js --sourcemap --packages=external --format=cjs",
     "build:esm": "esbuild ./src/index.ts --bundle --outfile=dist/chakra-ui.esm.js --sourcemap --packages=external --format=esm",
-    "build:umd": "rollup dist/chakra-ui.esm.js --format=umd --file=dist/chakra-ui.umd.js --name=@rjsf/chakra-ui",
+    "build:umd": "rollup dist/chakra-ui.esm.js --format=umd --file=dist/chakra-ui.umd.js --name=@lonli-lokli/dynamic-forms-chakra-ui",
     "build": "npm run build:ts && npm run build:cjs && npm run build:esm && npm run build:umd",
     "cs-check": "prettier -l \"{src,test}/**/*.ts?(x)\"",
     "cs-format": "prettier \"{src,test}/**/*.ts?(x)\" --write",
@@ -64,8 +64,8 @@
   },
   "peerDependencies": {
     "@chakra-ui/react": ">=3.16.1",
-    "@rjsf/core": "^6.0.0-beta",
-    "@rjsf/utils": "^6.0.0-beta",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-beta",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-beta",
     "chakra-react-select": ">=6",
     "react": ">=18"
   },
@@ -87,10 +87,10 @@
     "@emotion/jest": "^11.13.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@rjsf/core": "^6.0.0-beta.7",
-    "@rjsf/snapshot-tests": "^6.0.0-beta7",
-    "@rjsf/utils": "^6.0.0-beta.7",
-    "@rjsf/validator-ajv8": "^6.0.0-beta.7",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma1",
     "chakra-react-select": "6.1.0",
     "eslint": "^8.56.0",
     "lucide-react": "^0.488.0"

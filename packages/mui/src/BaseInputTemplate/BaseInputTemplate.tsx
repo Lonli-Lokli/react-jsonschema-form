@@ -9,7 +9,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 const TYPES_THAT_SHRINK_LABEL = ['date', 'datetime-local', 'file', 'time'];
 

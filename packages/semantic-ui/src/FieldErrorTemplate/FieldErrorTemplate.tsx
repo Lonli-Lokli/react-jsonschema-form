@@ -1,4 +1,10 @@
-import { errorId, FieldErrorProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import {
+  errorId,
+  FieldErrorProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { nanoid } from 'nanoid';
 import { Label, List } from 'semantic-ui-react';
 

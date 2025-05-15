@@ -66,16 +66,16 @@ Exports `semantic-ui` theme, fields and widgets for `react-jsonschema-form`.
 
 - `@semantic-ui-react >= 0.87.0`
 - `@semantic-ui-css >= 2.4.1` ([default theme for semantic-ui](https://github.com/Semantic-Org/Semantic-UI-CSS)); see [theming guide](https://react.semantic-ui.com/theming) if you wish to customize
-- `@rjsf/core >= 2.0.0`
+- `@lonli-lokli/dynamic-forms-core >= 2.0.0`
 
 ```sh
-yarn add semantic-ui-css semantic-ui-react @rjsf/core
+yarn add semantic-ui-css semantic-ui-react @lonli-lokli/dynamic-forms-core
 ```
 
 ### Installation
 
 ```sh
-yarn add @rjsf/semantic-ui
+yarn add @lonli-lokli/dynamic-forms-semantic-ui
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -83,14 +83,14 @@ yarn add @rjsf/semantic-ui
 ## Usage
 
 ```javascript
-import Form from '@rjsf/semantic-ui';
+import Form from '@lonli-lokli/dynamic-forms-semantic-ui';
 ```
 
 or
 
 ```javascript
-import { withTheme } from '@rjsf/core';
-import { Theme as SemanticUITheme } from '@rjsf/semantic-ui';
+import { withTheme } from '@lonli-lokli/dynamic-forms-core';
+import { Theme as SemanticUITheme } from '@lonli-lokli/dynamic-forms-semantic-ui';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -160,8 +160,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/semantic-ui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/semantic-ui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/semantic-ui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/semantic-ui
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-semantic-ui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-semantic-ui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-semantic-ui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-semantic-ui
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/semantic-ui/screenshot.png

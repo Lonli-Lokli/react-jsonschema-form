@@ -5,7 +5,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `ArrayFieldTemplateItemButtons` component is the template used to render the buttons associate3d with items of
  * an array.

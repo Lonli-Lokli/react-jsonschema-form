@@ -1,4 +1,4 @@
-import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import AltDateTimeWidget from './AltDateTimeWidget/AltDateTimeWidget';
 import AltDateWidget from './AltDateWidget/AltDateWidget';

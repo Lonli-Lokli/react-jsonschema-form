@@ -23,7 +23,7 @@ import {
   StrictRJSFSchema,
   UI_OPTIONS_KEY,
   UiSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import cloneDeep from 'lodash/cloneDeep';
 import each from 'lodash/each';
 import flatten from 'lodash/flatten';

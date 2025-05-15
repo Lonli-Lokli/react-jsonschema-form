@@ -1,4 +1,10 @@
-import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import {
+  ErrorListProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TranslatableString,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { AlertCircle } from 'lucide-react';
 
 import { Alert, AlertDescription, AlertTitle } from '../components/ui/alert';

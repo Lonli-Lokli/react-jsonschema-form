@@ -1,4 +1,10 @@
-import { errorId, FieldErrorProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import {
+  errorId,
+  FieldErrorProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `FieldErrorTemplate` component renders the errors local to the particular field
  *

@@ -1,4 +1,4 @@
-import { formTests } from '@rjsf/snapshot-tests';
+import { formTests } from '@lonli-lokli/dynamic-forms-snapshot-tests';
 
 import WrappedForm from './WrappedForm';
 

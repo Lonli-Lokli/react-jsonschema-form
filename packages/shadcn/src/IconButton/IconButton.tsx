@@ -1,4 +1,10 @@
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import {
+  FormContextType,
+  IconButtonProps,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TranslatableString,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { ChevronDown, ChevronUp, Copy, Trash2 } from 'lucide-react';
 
 import { Button, ButtonProps } from '../components/ui/button';

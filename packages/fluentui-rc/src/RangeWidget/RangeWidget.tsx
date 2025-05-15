@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   rangeSpec,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Label, Slider, SliderOnChangeData } from '@fluentui/react-components';
 
 /** The `RangeWidget` component uses the `BaseInputTemplate` changing the type to `range` and wrapping the result

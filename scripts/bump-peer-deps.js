@@ -21,9 +21,9 @@ dirs.forEach((dir) => {
   const packageObject = JSON.parse(packageJson);
   const peerDeps = packageObject.peerDependencies;
   const devDeps = packageObject.devDependencies;
-  // For each of the peer dependencies, we go looking for any that start with `@rjsf/`
+  // For each of the peer dependencies, we go looking for any that start with `@lonli-lokli/dynamic-forms-`
   forEach(peerDeps, (value, key) => {
-    if (key.startsWith('@rjsf/')) {
+    if (key.startsWith('@lonli-lokli/dynamic-forms-')) {
       // Due to an [odd bug](https://github.com/npm/cli/issues/3847) with npm we can't just set the peer dependency to
       // the same value as the devDependency, so instead we extract out the major.minor versions
       const majorMinorMatch = devDeps[key].match(MAJOR_MINOR_REGEX);
@@ -36,10 +36,10 @@ dirs.forEach((dir) => {
       // We do this because it is possible that minor versions can add functionality that does not exist in an earlier
       // version that other packages may depend on (patch versions should never do this). For example:
       //
-      // A new API is added in `@rjsf/utils@5.4.0` that is used by `@rjsf/core@5.4.0`. If someone were to only update
-      // `@rjsf/core` to 5.4.0 but keep using `@rjsf/utils@5.3.0` then we will have a problem. By bumping the
+      // A new API is added in `@lonli-lokli/dynamic-forms-utils@5.4.0` that is used by `@lonli-lokli/dynamic-forms-core@5.4.0`. If someone were to only update
+      // `@lonli-lokli/dynamic-forms-core` to 5.4.0 but keep using `@lonli-lokli/dynamic-forms-utils@5.3.0` then we will have a problem. By bumping the
       // peerDependencies to `5.4.x` we support any patch versions of `5.4` but will prevent the user from forgetting to
-      // bump `@rjsf/utils` to 5.4
+      // bump `@lonli-lokli/dynamic-forms-utils` to 5.4
       //
       peerDeps[key] = `^${majorMinorMatch[1]}.x`;
     }

@@ -1,7 +1,7 @@
 import { useCallback, useMemo } from 'react';
-import Form, { IChangeEvent } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import localValidator from '@rjsf/validator-ajv8';
+import Form, { IChangeEvent } from '@lonli-lokli/dynamic-forms-core';
+import { RJSFSchema, UiSchema } from '@lonli-lokli/dynamic-forms-utils';
+import localValidator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 const uiSchema: UiSchema = {
   'ui:placeholder': 'Select subtheme',

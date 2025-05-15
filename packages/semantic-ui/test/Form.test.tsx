@@ -1,7 +1,7 @@
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 import renderer from 'react-test-renderer';
-import { formTests } from '@rjsf/snapshot-tests';
+import { formTests } from '@lonli-lokli/dynamic-forms-snapshot-tests';
 
 import Form from '../src';
 

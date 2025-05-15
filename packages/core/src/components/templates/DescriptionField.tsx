@@ -1,4 +1,4 @@
-import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import RichDescription from '../RichDescription';
 

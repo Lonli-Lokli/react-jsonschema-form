@@ -8,7 +8,7 @@ import SelectWidget from '../SelectWidget/SelectWidget';
 import NativeSelectWidget from '../SelectNativeWidget/NativeSelectWidget';
 import TextareaWidget from '../TextareaWidget/TextareaWidget';
 import UpDownWidget from '../UpDownWidget/UpDownWidget';
-import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 export function generateWidgets<
   T = any,

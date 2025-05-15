@@ -5,7 +5,7 @@ import {
   StrictRJSFSchema,
   getTemplate,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import Label from './Label';
 

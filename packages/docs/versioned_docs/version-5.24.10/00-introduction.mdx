@@ -24,17 +24,17 @@ react-jsonschema-form also comes with tools such as `uiSchema` and other form pr
 
 ## Installation
 
-First install the dependencies from npm, along with a validator implementation (such as `@rjsf/validator-ajv8`):
+First install the dependencies from npm, along with a validator implementation (such as `@lonli-lokli/dynamic-forms-validator-ajv8`):
 
 ```bash
-$ npm install @rjsf/core @rjsf/utils @rjsf/validator-ajv8 --save
+$ npm install @lonli-lokli/dynamic-forms-core @lonli-lokli/dynamic-forms-utils @lonli-lokli/dynamic-forms-validator-ajv8 --save
 ```
 
 Then import the dependencies as follows:
 
 ```ts
-import Form from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@lonli-lokli/dynamic-forms-core';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 ```
 
 Our latest version requires React 16+.
@@ -42,9 +42,9 @@ Our latest version requires React 16+.
 ## Usage
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@lonli-lokli/dynamic-forms-core';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Todo',

@@ -1,5 +1,5 @@
 import { Sample } from './Sample';
-import { FieldProps } from '@rjsf/utils';
+import { FieldProps } from '@lonli-lokli/dynamic-forms-utils';
 
 function UiField(props: FieldProps) {
   const {

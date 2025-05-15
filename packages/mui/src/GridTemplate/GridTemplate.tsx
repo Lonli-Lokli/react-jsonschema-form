@@ -1,5 +1,5 @@
 import Grid2 from '@mui/material/Grid2';
-import { GridTemplateProps } from '@rjsf/utils';
+import { GridTemplateProps } from '@lonli-lokli/dynamic-forms-utils';
 
 /** Renders a `GridTemplate` for mui, which is expecting the column sizing information coming in via the
  * extra props provided by the caller, which are spread directly on the `Grid2`.

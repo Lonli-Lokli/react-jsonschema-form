@@ -1,4 +1,10 @@
-import { FieldHelpProps, FormContextType, RJSFSchema, StrictRJSFSchema, helpId } from '@rjsf/utils';
+import {
+  FieldHelpProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  helpId,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { cn } from '../lib/utils';
 

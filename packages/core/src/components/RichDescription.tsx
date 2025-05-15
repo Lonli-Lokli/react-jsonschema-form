@@ -7,7 +7,7 @@ import {
   UiSchema,
   getTestIds,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import Markdown from 'markdown-to-jsx';
 
 const TEST_IDS = getTestIds();

@@ -1,4 +1,4 @@
-import { FieldTemplateProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { FieldTemplateProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `FieldTemplate` component provides the main layout for each form field
  * with DaisyUI styling. It handles:

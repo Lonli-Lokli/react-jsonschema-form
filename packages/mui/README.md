@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/7ebc86621d8df8c21f0c39bcca6d476f6f7a2051/packages/mui/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/mui</h3>
+  <h3 align="center">@lonli-lokli/dynamic-forms-mui</h3>
 
   <p align="center">
   Material UI 5 theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -47,7 +47,7 @@
 
 ## About The Project
 
-[![@rjsf/mui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@rjsf/mui)
+[![@lonli-lokli/dynamic-forms-mui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@lonli-lokli/dynamic-forms-mui)
 
 Exports `MUI` version 5 theme, fields, and widgets for `react-jsonschema-form`.
 
@@ -69,18 +69,18 @@ NOTE: Material UI 5 requires React 17, so you will need to upgrade
 - `@mui/icons-material`
 - `@emotion/react`
 - `@emotion/styled`
-- `@rjsf/core >= 5.0.0`
-- `@rjsf/utils >= 5.0.0`
-- `@rjsf/validator-ajv8 >= 5.0.0`
+- `@lonli-lokli/dynamic-forms-core >= 5.0.0`
+- `@lonli-lokli/dynamic-forms-utils >= 5.0.0`
+- `@lonli-lokli/dynamic-forms-validator-ajv8 >= 5.0.0`
 
 ```bash
-yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @lonli-lokli/dynamic-forms-core @lonli-lokli/dynamic-forms-utils @lonli-lokli/dynamic-forms-validator-ajv8
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/mui
+yarn add @lonli-lokli/dynamic-forms-mui
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -90,14 +90,14 @@ yarn add @rjsf/mui
 ### Material UI version 5
 
 ```js
-import Form from '@rjsf/mui';
+import Form from '@lonli-lokli/dynamic-forms-mui';
 ```
 
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
-import { Theme } from '@rjsf/mui';
+import { withTheme } from '@lonli-lokli/dynamic-forms-core';
+import { Theme } from '@lonli-lokli/dynamic-forms-mui';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -133,8 +133,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/mui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/mui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/mui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/mui
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-mui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-mui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-mui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-mui
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/e2e1181d1020f18cad0c80c661ddae28edb9794e/packages/mui/screenshot.png

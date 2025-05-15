@@ -8,7 +8,7 @@ import {
   schemaRequiresTrueValue,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Checkbox } from '../components/ui/checkbox';
 import { Label } from '../components/ui/label';
 

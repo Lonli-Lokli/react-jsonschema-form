@@ -1,5 +1,5 @@
 import { ChangeEvent, FocusEvent, useCallback } from 'react';
-import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `FileWidget` component provides a file input with DaisyUI styling
  *

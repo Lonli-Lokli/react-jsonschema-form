@@ -1,6 +1,12 @@
 import { Button } from '@fluentui/react-components';
 import { ArrowSortUpRegular, ArrowSortDownRegular, CopyRegular, SubtractRegular } from '@fluentui/react-icons';
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import {
+  FormContextType,
+  IconButtonProps,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TranslatableString,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function FluentIconButton<
   T = any,

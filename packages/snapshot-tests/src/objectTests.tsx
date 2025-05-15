@@ -1,11 +1,11 @@
 import { ComponentType } from 'react';
 import renderer from 'react-test-renderer';
-import { FormProps } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { FormProps } from '@lonli-lokli/dynamic-forms-core';
+import { RJSFSchema, UiSchema } from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
-jest.mock('@rjsf/utils', () => ({
-  ...jest.requireActual('@rjsf/utils'),
+jest.mock('@lonli-lokli/dynamic-forms-utils', () => ({
+  ...jest.requireActual('@lonli-lokli/dynamic-forms-utils'),
   // Disable the getTestIds within the snapshot tests by returning an empty object
   getTestIds: jest.fn(() => ({})),
 }));

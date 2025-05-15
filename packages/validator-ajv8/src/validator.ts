@@ -13,7 +13,7 @@ import {
   ValidatorType,
   withIdRefPrefix,
   hashForSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { CustomValidatorOptionsType, Localizer } from './types';
 import createAjvInstance from './createAjvInstance';

@@ -1,5 +1,5 @@
 import { FocusEvent, useCallback } from 'react';
-import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `CheckboxesWidget` component renders a set of checkboxes for multiple choice selection
  * with DaisyUI styling.

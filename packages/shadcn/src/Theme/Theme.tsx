@@ -1,5 +1,5 @@
-import { ThemeProps } from '@rjsf/core';
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { ThemeProps } from '@lonli-lokli/dynamic-forms-core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import { generateTemplates } from '../Templates';
 import { generateWidgets } from '../Widgets';

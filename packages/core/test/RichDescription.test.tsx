@@ -1,4 +1,4 @@
-import { Registry } from '@rjsf/utils';
+import { Registry } from '@lonli-lokli/dynamic-forms-utils';
 import { render, within } from '@testing-library/react';
 
 import { RichDescription, RichDescriptionProps } from '../src';

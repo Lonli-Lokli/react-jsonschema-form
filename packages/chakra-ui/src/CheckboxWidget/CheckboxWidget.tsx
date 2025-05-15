@@ -10,7 +10,7 @@ import {
   StrictRJSFSchema,
   RJSFSchema,
   FormContextType,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { Field } from '../components/ui/field';
 import { Checkbox } from '../components/ui/checkbox';

@@ -6,7 +6,7 @@ import { fireEvent, act, render } from '@testing-library/react';
 import { Simulate } from 'react-dom/test-utils';
 import { findDOMNode } from 'react-dom';
 import { Portal } from 'react-portal';
-import validator, { customizeValidator } from '@rjsf/validator-ajv8';
+import validator, { customizeValidator } from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 import Form from '../src';
 import {

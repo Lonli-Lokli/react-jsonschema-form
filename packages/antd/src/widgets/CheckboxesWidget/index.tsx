@@ -10,7 +10,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `CheckboxesWidget` is a widget for rendering checkbox groups.
  *  It is typically used to represent an array of enums.

@@ -1,6 +1,12 @@
 import { ComponentType, FormEvent, useCallback, useEffect, useRef, useState } from 'react';
-import { FormProps, IChangeEvent, withTheme } from '@rjsf/core';
-import { ErrorSchema, RJSFSchema, RJSFValidationError, UiSchema, ValidatorType } from '@rjsf/utils';
+import { FormProps, IChangeEvent, withTheme } from '@lonli-lokli/dynamic-forms-core';
+import {
+  ErrorSchema,
+  RJSFSchema,
+  RJSFValidationError,
+  UiSchema,
+  ValidatorType,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { isFunction } from 'lodash';
 
 import { samples } from '../samples';

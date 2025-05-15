@@ -1,5 +1,11 @@
 import { ChangeEvent, FocusEvent, useCallback } from 'react';
-import { ariaDescribedByIds, FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import {
+  ariaDescribedByIds,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `TextareaWidget` is a widget for rendering input fields as textarea.
  *

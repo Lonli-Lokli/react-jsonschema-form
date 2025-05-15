@@ -1,4 +1,10 @@
-import { FormContextType, getUiOptions, RJSFSchema, StrictRJSFSchema, TitleFieldProps } from '@rjsf/utils';
+import {
+  FormContextType,
+  getUiOptions,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TitleFieldProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 export default function TitleField<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>({
   id,

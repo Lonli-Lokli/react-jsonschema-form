@@ -20,7 +20,7 @@ import {
   SchemaUtilsType,
   StrictRJSFSchema,
   UiSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import get from 'lodash/get';
 import has from 'lodash/has';
 import isEmpty from 'lodash/isEmpty';

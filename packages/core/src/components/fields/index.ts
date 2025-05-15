@@ -1,4 +1,10 @@
-import { Field, FormContextType, RegistryFieldsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import {
+  Field,
+  FormContextType,
+  RegistryFieldsType,
+  RJSFSchema,
+  StrictRJSFSchema,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import ArrayField from './ArrayField';
 import BooleanField from './BooleanField';

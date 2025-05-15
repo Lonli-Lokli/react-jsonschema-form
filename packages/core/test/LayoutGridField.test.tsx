@@ -18,8 +18,8 @@ import {
   toIdSchema,
   UI_OPTIONS_KEY,
   UiSchema,
-} from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+} from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { get, has, omit, pick } from 'lodash';

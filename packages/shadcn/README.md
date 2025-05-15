@@ -5,7 +5,7 @@
     <img src="./shadcn.png" alt="Logo" width="180" height="180">
   </a>
 
-<h3 align="center">@rjsf/shadcn</h3>
+<h3 align="center">@lonli-lokli/dynamic-forms-shadcn</h3>
 
   <p align="center">
   Shadcn theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -54,30 +54,30 @@ Exports `shadcn` theme, fields and widgets for `react-jsonschema-form`.
 
 ### Prerequisites
 
-- `@rjsf/core >= 6`
+- `@lonli-lokli/dynamic-forms-core >= 6`
 - `tailwindcss (optional)`
 
 ```bash
-yarn add @rjsf/core
+yarn add @lonli-lokli/dynamic-forms-core
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/shadcn
+yarn add @lonli-lokli/dynamic-forms-shadcn
 ```
 
 ## Usage
 
 ```js
-import Form from '@rjsf/shadcn';
+import Form from '@lonli-lokli/dynamic-forms-shadcn';
 ```
 
 or
 
 ```js
-import {withTheme} from '@rjsf/core';
-import {Theme as shadcnTheme} from '@rjsf/shadcn';
+import {withTheme} from '@lonli-lokli/dynamic-forms-core';
+import {Theme as shadcnTheme} from '@lonli-lokli/dynamic-forms-shadcn';
 
 const Form = withTheme(shadcnTheme);
 ```
@@ -99,9 +99,9 @@ The color of the RJSF will automatically apply with your shadCN config.
 All shadcn's default color theme are included in the npm packages. Simply do
 
 ```
-import '@rjsf/shadcn/dist/[color].css';
+import '@lonli-lokli/dynamic-forms-shadcn/dist/[color].css';
 e.g:
-import '@rjsf/shadcn/dist/zinc.css';
+import '@lonli-lokli/dynamic-forms-shadcn/dist/zinc.css';
 ```
 
 Supported colors are:
@@ -214,12 +214,12 @@ repository: [https://github.com/rjsf-team/react-jsonschema-form](https://github.
 
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
 
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/shadcn/latest.svg?style=flat-square
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-shadcn/latest.svg?style=flat-square
 
-[npm-url]: https://www.npmjs.com/package/@rjsf/shadcn
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-shadcn
 
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/shadcn.svg?style=flat-square
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-shadcn.svg?style=flat-square
 
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/shadcn
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-shadcn
 
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/shadcn/screenshot.png

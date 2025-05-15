@@ -1,4 +1,10 @@
-import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import {
+  ErrorListProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  TranslatableString,
+} from '@lonli-lokli/dynamic-forms-utils';
 import { ListIndicator, ListItem, ListRoot } from '@chakra-ui/react';
 import { TriangleAlert } from 'lucide-react';
 

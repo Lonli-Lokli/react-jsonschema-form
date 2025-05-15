@@ -1,5 +1,5 @@
 import { Field as ChakraField, defaultSystem } from '@chakra-ui/react';
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@lonli-lokli/dynamic-forms-utils';
 import shouldForwardProp from '@emotion/is-prop-valid';
 
 const { isValidProperty } = defaultSystem;

@@ -1,4 +1,4 @@
-import { withTheme } from '@rjsf/core';
+import { withTheme } from '@lonli-lokli/dynamic-forms-core';
 import Theme from './theme';
 
 /**

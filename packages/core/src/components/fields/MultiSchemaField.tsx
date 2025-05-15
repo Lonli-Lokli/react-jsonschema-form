@@ -17,7 +17,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   UiSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** Type used for the state of the `AnyOfField` component */
 type AnyOfFieldState<S extends StrictRJSFSchema = RJSFSchema> = {

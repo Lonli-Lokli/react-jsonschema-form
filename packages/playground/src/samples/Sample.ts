@@ -1,5 +1,5 @@
-import { UiSchema } from '@rjsf/utils';
-import { FormProps } from '@rjsf/core';
+import { UiSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { FormProps } from '@lonli-lokli/dynamic-forms-core';
 
 export type UiSchemaForTheme = (theme: string) => UiSchema;
 

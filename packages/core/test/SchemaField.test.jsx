@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { expect } from 'chai';
 import { fireEvent, act } from '@testing-library/react';
-import { createSchemaUtils, englishStringTranslator } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { createSchemaUtils, englishStringTranslator } from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 import SchemaField from '../src/components/fields/SchemaField';
 

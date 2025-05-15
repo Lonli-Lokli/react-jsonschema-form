@@ -9,7 +9,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { Field } from '../components/ui/field';
 import { getChakra } from '../utils';

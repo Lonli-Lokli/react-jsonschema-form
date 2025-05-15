@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/snapshot-tests",
-  "version": "6.0.0-beta7",
+  "name": "@lonli-lokli/dynamic-forms-snapshot-tests",
+  "version": "6.0.0-gamma1",
   "description": "A set of snapshot tests to be used for testing RJSF theme.",
   "scripts": {
     "build": "tsc -b .",
@@ -30,13 +30,13 @@
   "peerDependencies": {
     "react": ">=18",
     "react-test-renderer": "^18.2.0",
-    "@rjsf/core": "^6.0.0-beta",
-    "@rjsf/utils": "^6.0.0-beta"
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-beta",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-beta"
   },
   "devDependencies": {
-    "@rjsf/core": "^6.0.0-beta.7",
-    "@rjsf/utils": "^6.0.0-beta.7",
-    "@rjsf/validator-ajv8": "^6.0.0-beta.7"
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma1",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma1"
   },
   "repository": {
     "type": "git",

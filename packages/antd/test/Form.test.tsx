@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
-import validator from '@rjsf/validator-ajv8';
-import { RJSFSchema } from '@rjsf/utils';
-import { formTests } from '@rjsf/snapshot-tests';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
+import { RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
+import { formTests } from '@lonli-lokli/dynamic-forms-snapshot-tests';
 
 import '../__mocks__/matchMedia.mock';
 import Form from '../src';

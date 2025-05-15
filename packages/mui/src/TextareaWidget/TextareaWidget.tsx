@@ -1,4 +1,10 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps, getTemplate } from '@rjsf/utils';
+import {
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+  getTemplate,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `TextareaWidget` is a widget for rendering input fields as textarea.
  *

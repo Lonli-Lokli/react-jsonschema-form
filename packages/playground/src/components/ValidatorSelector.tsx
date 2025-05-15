@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
-import Form, { IChangeEvent } from '@rjsf/core';
-import { RJSFSchema, UiSchema, ValidatorType } from '@rjsf/utils';
-import localValidator from '@rjsf/validator-ajv8';
+import Form, { IChangeEvent } from '@lonli-lokli/dynamic-forms-core';
+import { RJSFSchema, UiSchema, ValidatorType } from '@lonli-lokli/dynamic-forms-utils';
+import localValidator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 interface ValidatorSelectorProps {
   validator: string;

@@ -1,5 +1,11 @@
 import FormHelperText from '@mui/material/FormHelperText';
-import { helpId, FieldHelpProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import {
+  helpId,
+  FieldHelpProps,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `FieldHelpTemplate` component renders any help desired for a field
  *

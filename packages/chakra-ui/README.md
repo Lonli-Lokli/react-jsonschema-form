@@ -11,7 +11,7 @@
     <img src="./logo.png" alt="Logo" width="340">
   </a>
 
-  <h3 align="center">@rjsf/chakra-ui</h3>
+  <h3 align="center">@lonli-lokli/dynamic-forms-chakra-ui</h3>
 
   <p align="center">
   Chakra UI theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -48,7 +48,7 @@
 
 ## About The Project
 
-[![@rjsf/chakra-ui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@rjsf/chakra-ui)
+[![@lonli-lokli/dynamic-forms-chakra-ui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@lonli-lokli/dynamic-forms-chakra-ui)
 
 Exports `chakra-ui` theme, fields and widgets for `react-jsonschema-form`.
 
@@ -68,7 +68,7 @@ Exports `chakra-ui` theme, fields and widgets for `react-jsonschema-form`.
 - `chakra-react-select >= 3.3.8`
 - `react >= 17.0.0`
 - `framer-motion >= 5.0.0`
-- `@rjsf/core >= 2.0.0`
+- `@lonli-lokli/dynamic-forms-core >= 2.0.0`
 
 Refer to the [rjsf installation guide](https://rjsf-team.github.io/react-jsonschema-form/docs/#installation) and [chakra-ui installation guide](https://chakra-ui.com/docs/getting-started#installation) and for more details.
 
@@ -81,7 +81,7 @@ yarn add @chakra-ui/react@^1.7 @emotion/react@^11 @emotion/styled@^11 framer-mot
 ```
 
 ```bash
-yarn add @rjsf/chakra-ui @rjsf/core
+yarn add @lonli-lokli/dynamic-forms-chakra-ui @lonli-lokli/dynamic-forms-core
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -89,14 +89,14 @@ yarn add @rjsf/chakra-ui @rjsf/core
 ## Usage
 
 ```js
-import Form from '@rjsf/chakra-ui';
+import Form from '@lonli-lokli/dynamic-forms-chakra-ui';
 ```
 
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
-import { Theme as ChakraUITheme } from '@rjsf/chakra-ui';
+import { withTheme } from '@lonli-lokli/dynamic-forms-core';
+import { Theme as ChakraUITheme } from '@lonli-lokli/dynamic-forms-chakra-ui';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -157,8 +157,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/chakra-ui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/chakra-ui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/chakra-ui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/chakra-ui
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-chakra-ui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-chakra-ui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-chakra-ui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-chakra-ui
 [product-screenshot]: ./screenshot.png

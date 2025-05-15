@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { FancyMultiSelect } from '../components/ui/fancy-multi-select';
 import { FancySelect } from '../components/ui/fancy-select';

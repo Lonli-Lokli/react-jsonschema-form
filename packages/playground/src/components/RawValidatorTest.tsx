@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ValidatorType, RJSFSchema } from '@rjsf/utils';
+import { ValidatorType, RJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 interface RawValidatorTestProps {
   validator: ValidatorType;

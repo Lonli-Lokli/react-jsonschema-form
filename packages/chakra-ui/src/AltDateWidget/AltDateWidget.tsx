@@ -12,7 +12,7 @@ import {
   toDateString,
   TranslatableString,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { MouseEvent, useEffect, useState } from 'react';
 import { getChakra } from '../utils';
 

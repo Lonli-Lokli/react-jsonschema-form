@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   TranslatableString,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import isObject from 'lodash/isObject';
 
 /** The `BooleanField` component is used to render a field in the schema is boolean. It constructs `enumOptions` for the

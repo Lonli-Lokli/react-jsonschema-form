@@ -1,4 +1,10 @@
-import { getSubmitButtonOptions, FormContextType, RJSFSchema, StrictRJSFSchema, SubmitButtonProps } from '@rjsf/utils';
+import {
+  getSubmitButtonOptions,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  SubmitButtonProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `SubmitButton` renders a button that represent the `Submit` action on a form
  */

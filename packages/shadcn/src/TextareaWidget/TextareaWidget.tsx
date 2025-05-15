@@ -1,5 +1,11 @@
 import { ChangeEvent, FocusEvent } from 'react';
-import { ariaDescribedByIds, FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import {
+  ariaDescribedByIds,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { Textarea } from '../components/ui/textarea';
 

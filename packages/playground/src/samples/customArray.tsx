@@ -1,5 +1,5 @@
 import { Sample } from './Sample';
-import { ArrayFieldTemplateProps } from '@rjsf/utils';
+import { ArrayFieldTemplateProps } from '@lonli-lokli/dynamic-forms-utils';
 
 function ArrayFieldTemplate(props: ArrayFieldTemplateProps) {
   const { className, items, canAdd, onAddClick } = props;

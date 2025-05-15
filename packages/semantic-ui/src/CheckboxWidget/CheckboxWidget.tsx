@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { Form, CheckboxProps } from 'semantic-ui-react';
 import { getSemanticProps } from '../util';
 

@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import { CustomValidatorOptionsType } from './types';
 import { compileSchemaValidatorsCode } from './compileSchemaValidatorsCode';

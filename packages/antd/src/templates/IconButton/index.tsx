@@ -11,7 +11,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   TranslatableString,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { MouseEventHandler } from 'react';
 
 // The `type` and `color` for IconButtonProps collides with props of `ButtonProps` so omit it to avoid Typescript issue

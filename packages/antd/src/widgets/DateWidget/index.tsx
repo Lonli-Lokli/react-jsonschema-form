@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import { DatePicker } from 'antd';
 

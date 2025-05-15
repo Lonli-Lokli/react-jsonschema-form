@@ -1,5 +1,5 @@
 import { FocusEvent, useCallback } from 'react';
-import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `RangeWidget` component renders a range slider input with DaisyUI styling
  *

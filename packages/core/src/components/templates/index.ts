@@ -1,4 +1,4 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@lonli-lokli/dynamic-forms-utils';
 
 import ArrayFieldDescriptionTemplate from './ArrayFieldDescriptionTemplate';
 import ArrayFieldItemTemplate from './ArrayFieldItemTemplate';

@@ -51,7 +51,7 @@ pointing: determines the direction of the arrow on the error message dialog
 Below are the current defaults
 
 ```tsx
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 const uiSchema: UiSchema = {
   'ui:options': {
@@ -75,8 +75,8 @@ horizontalButtons: vertical buttons instead of the default horizontal
 ```
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@lonli-lokli/dynamic-forms-utils';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',

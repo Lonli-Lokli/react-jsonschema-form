@@ -8,7 +8,7 @@ import {
   UiSchema,
   JUNK_OPTION_ID,
   retrieveSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 import AJV8PrecompiledValidator from '../src/precompiledValidator';
 import { Localizer, ValidatorFunctions } from '../src';

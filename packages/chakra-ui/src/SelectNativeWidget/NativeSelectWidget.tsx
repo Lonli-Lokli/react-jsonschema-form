@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 import { OptionsOrGroups } from 'chakra-react-select';
 import { createListCollection, NativeSelect as ChakraSelect } from '@chakra-ui/react';
 

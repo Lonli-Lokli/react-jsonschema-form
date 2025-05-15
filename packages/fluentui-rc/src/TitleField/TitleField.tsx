@@ -1,5 +1,5 @@
 import { Text, Divider, makeStyles } from '@fluentui/react-components';
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 const useStyles = makeStyles({
   root: {

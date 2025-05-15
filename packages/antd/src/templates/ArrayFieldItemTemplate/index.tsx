@@ -6,7 +6,7 @@ import {
   getTemplate,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@lonli-lokli/dynamic-forms-utils';
 
 const BTN_GRP_STYLE = {
   width: '100%',

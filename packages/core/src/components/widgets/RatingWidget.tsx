@@ -1,5 +1,5 @@
 import { FocusEvent, useCallback } from 'react';
-import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@lonli-lokli/dynamic-forms-utils';
 
 /** The `RatingWidget` component renders a star or heart rating input
  *

@@ -1,4 +1,4 @@
-# @rjsf/daisyui
+# @lonli-lokli/dynamic-forms-daisyui
 
 [![Build Status][build-shield]][build-url]
 [![npm][npm-shield]][npm-url]
@@ -34,14 +34,14 @@ This package integrates [DaisyUI](https://daisyui.com/), [Tailwind CSS](https://
 ## Installation
 
 ```bash
-npm install @rjsf/daisyui @rjsf/core @rjsf/utils tailwindcss daisyui
+npm install @lonli-lokli/dynamic-forms-daisyui @lonli-lokli/dynamic-forms-core @lonli-lokli/dynamic-forms-utils tailwindcss daisyui
 ```
 
 ## Usage
 
 ```jsx
-import { Form } from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@lonli-lokli/dynamic-forms-daisyui';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 function App() {
   return (
@@ -87,9 +87,9 @@ module.exports = {
 The DaisyUI theme supports the standard RJSF layout grid system. You can use grid layouts by incorporating the `LayoutGridField` in your UI schema:
 
 ```jsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import Form from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@lonli-lokli/dynamic-forms-utils';
+import Form from '@lonli-lokli/dynamic-forms-daisyui';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 const schema = {
   type: 'object',
@@ -171,8 +171,8 @@ You can also dynamically change themes in your application:
 
 ```jsx
 import { useState } from 'react';
-import { Form } from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@lonli-lokli/dynamic-forms-daisyui';
+import validator from '@lonli-lokli/dynamic-forms-validator-ajv8';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -221,10 +221,10 @@ Apache-2.0
 
 [build-shield]: https://github.com/rjsf-team/react-jsonschema-form/workflows/CI/badge.svg
 [build-url]: https://github.com/rjsf-team/react-jsonschema-form/actions
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/daisyui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/daisyui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/daisyui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/daisyui
+[npm-shield]: https://img.shields.io/npm/v/@lonli-lokli/dynamic-forms-daisyui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-daisyui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@lonli-lokli/dynamic-forms-daisyui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@lonli-lokli/dynamic-forms-daisyui
 [contributors-shield]: https://img.shields.io/github/contributors/rjsf-team/react-jsonschema-form.svg?style=flat-square
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square

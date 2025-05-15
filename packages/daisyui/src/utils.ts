@@ -1,4 +1,4 @@
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@lonli-lokli/dynamic-forms-utils';
 
 import { DaisyProps } from './types/DaisyProps';
 
