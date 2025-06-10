@@ -1,6 +1,6 @@
 {
   "name": "@lonli-lokli/dynamic-forms-mui",
-  "version": "6.0.0-gamma6",
+  "version": "6.0.0-gamma7",
   "main": "./dist/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -75,10 +75,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^6.4.11",
     "@mui/material": "^6.4.11",
-    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma6",
-    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma6",
-    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma6",
-    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma7",
+    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma7",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma7",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma7",
     "eslint": "^8.56.0"
   },
   "publishConfig": {

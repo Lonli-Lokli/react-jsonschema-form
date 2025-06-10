@@ -98,9 +98,8 @@ export type Experimental_DefaultFormStateBehavior = {
    *        even if that value is explicitly set to `undefined`
    * - `useDefaultIfFormDataUndefined`: - If the value of a field within the `formData` is `undefined`, then use the
    *        default value instead
-   * - `useDefault`: - Always use the default value
    */
-  mergeDefaultsIntoFormData?: 'useFormDataIfPresent' | 'useDefaultIfFormDataUndefined' | 'useDefault';
+  mergeDefaultsIntoFormData?: 'useFormDataIfPresent' | 'useDefaultIfFormDataUndefined';
   /** Optional enumerated flag controlling how const values are merged into the form data as defaults when dealing with
    * undefined values, defaulting to `always`. The defaulting behavior for this flag will always be controlled by the
    * `emptyObjectField` flag value. For instance, if `populateRequiredDefaults` is set and the const value is not
