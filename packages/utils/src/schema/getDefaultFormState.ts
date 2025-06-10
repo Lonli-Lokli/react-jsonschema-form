@@ -363,7 +363,7 @@ export function computeDefaults<T = any, S extends StrictRJSFSchema = RJSFSchema
         matchingFormData as T,
         mergeExtraDefaults,
         true,
-        'noop',
+        experimental_defaultFormStateBehavior?.mergeDefaultsIntoFormData === 'useDefault' ? 'replace' : 'noop',
       ) as T;
     }
   }
@@ -733,7 +733,7 @@ export default function getDefaultFormState<
       formData,
       true, // set to true to add any additional default array entries.
       defaultSupercedesUndefined,
-      'merge', // set to 'merge' to override formData with defaults if they exist.
+      experimental_defaultFormStateBehavior?.mergeDefaultsIntoFormData === 'useDefault' ? 'replace' : 'merge', // set to 'merge' to override formData with defaults if they exist.
     );
     return result;
   }
