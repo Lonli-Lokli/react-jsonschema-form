@@ -1,6 +1,6 @@
 {
   "name": "@lonli-lokli/dynamic-forms-snapshot-tests",
-  "version": "6.0.0-gamma5",
+  "version": "6.0.0-gamma6",
   "description": "A set of snapshot tests to be used for testing RJSF theme.",
   "scripts": {
     "build": "tsc -b .",
@@ -34,9 +34,9 @@
     "@lonli-lokli/dynamic-forms-utils": "^6.0.0-beta"
   },
   "devDependencies": {
-    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma5",
-    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma5",
-    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma5"
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma6"
   },
   "repository": {
     "type": "git",

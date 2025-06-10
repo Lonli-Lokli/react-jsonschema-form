@@ -1,6 +1,6 @@
 {
   "name": "@lonli-lokli/dynamic-forms-react-bootstrap",
-  "version": "6.0.0-gamma5",
+  "version": "6.0.0-gamma6",
   "main": "dist/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -71,10 +71,10 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma5",
-    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma5",
-    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma5",
-    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma5",
+    "@lonli-lokli/dynamic-forms-core": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-snapshot-tests": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-utils": "^6.0.0-gamma6",
+    "@lonli-lokli/dynamic-forms-validator-ajv8": "^6.0.0-gamma6",
     "eslint": "^8.56.0",
     "react-bootstrap": "^2.10.9"
   },
