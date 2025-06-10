@@ -98,6 +98,12 @@ export interface FormProps<T = any, S extends StrictRJSFSchema = RJSFSchema, F e
    * receive the same args as `onSubmit` any time a value is updated in the form. Can also return the `id` of the field
    * that caused the change
    */
+  onChanging?: (formData: T | undefined, id?: string) => T | undefined;
+
+  /** If you plan on being notified every time the form data are updated, you can pass an `onChange` handler, which will
+   * receive the same args as `onSubmit` any time a value is updated in the form. Can also return the `id` of the field
+   * that caused the change
+   */
   onChange?: (data: IChangeEvent<T, S, F>, id?: string) => void;
   /** To react when submitted form data are invalid, pass an `onError` handler. It will be passed the list of
    * encountered errors
@@ -255,6 +261,15 @@ export interface FormState<T = any, S extends StrictRJSFSchema = RJSFSchema, F e
  * the schema validation errors. An additional `status` is added when returned from `onSubmit`
  */
 export interface IChangeEvent<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>
+  extends Omit<FormState<T, S, F>, 'schemaValidationErrors' | 'schemaValidationErrorSchema'> {
+  /** The status of the form when submitted */
+  status?: 'submitted';
+}
+
+/** The event data passed when changes almost have been made to the form, includes everything from the `FormState` except
+ * the schema validation errors. An additional `status` is added when returned from `onSubmit`
+ */
+export interface IChangingEvent<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>
   extends Omit<FormState<T, S, F>, 'schemaValidationErrors' | 'schemaValidationErrorSchema'> {
   /** The status of the form when submitted */
   status?: 'submitted';
@@ -703,10 +718,11 @@ export default class Form<
    * @param newErrorSchema - The new `ErrorSchema` based on the field change
    * @param id - The id of the field that caused the change
    */
-  onChange = (formData: T | undefined, newErrorSchema?: ErrorSchema<T>, id?: string) => {
+  onChange = (changedFormData: T | undefined, newErrorSchema?: ErrorSchema<T>, id?: string) => {
     const { extraErrors, omitExtraData, liveOmit, noValidate, liveValidate, onChange } = this.props;
     const { schemaUtils, schema } = this.state;
 
+    let formData = this.props.onChanging ? this.props.onChanging(changedFormData, id) : changedFormData;
     let retrievedSchema = this.state.retrievedSchema;
     if (isObject(formData) || Array.isArray(formData)) {
       const newState = this.getStateFromProps(this.props, formData);
