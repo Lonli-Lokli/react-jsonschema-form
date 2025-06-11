@@ -104,5 +104,5 @@ export default function mergeDefaultsWithFormData<T = any>(
     return defaults;
   }
 
-  return overrideFormDataWithDefaultsStrategy === 'replace' ? defaults : formData;
+  return overrideFormDataWithDefaultsStrategy === 'replace' ? (defaults ?? formData) : formData;
 }
